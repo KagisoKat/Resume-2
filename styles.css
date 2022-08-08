@@ -1,88 +1,73 @@
-body {
+body{
     font-family: sans-serif;
-    font-size: 110%;
+    font-size:110%;
     background-color: #FCF7F8;
-}
-
-body {
-    display: block;
-    margin: 8px;
-}
-
-#heading {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #heading{
     font-family: sans-serif;
     background-color: #343330;
+    /* display: inline-flex; */
+    padding: 1rem;
     color: white;
-}
-
-header {
-    text-align: center;
-}
-
-header {
+  }
+  
+  #headshot{
+    width: 10%;
+    height: 10%;
+    border-radius: 20%;
+    border: 3px solid #b46c0e;
+  }
+  
+  .main{
+    display: flex;
+    flex-direction: row;
+    overflow: unset;
+  }
+  
+  #sidebar {
+    height: 100%;
+    padding: 1rem;
+    padding-right: 2rem;
+    background-color: #595b14;
     display: block;
-}
-
-main {
-    display: block;
-}
-
-#sidebar {
-    width: 20%;
-    color: #FCF7F8;
-    background-color: #45462A;
-}
-
-div {
-    display: block;
-}
-
-#content {
-    width: 80%;
-}
-
-div {
-    display: block;
-}
-
-footer {
+  }
+  
+  #listtype {
+    list-style-type: none;
+    padding: 0;
+    color: #fff;
+  }
+  
+  footer {
+    padding: 1rem;
     background-color: #343330;
+    justify-content: center;
     text-align: center;
-}
-
-footer {
+  }
+  
+  #content {
+    width: 80%;
+    padding: 1rem;
+    margin: 1rem;
     display: block;
-}
+  }
 
-
-h3 {
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.icons {
-    width: 3rem;
+  
+  .icons{
+    width:3rem;
+    margin: 0.5rem;
     height: auto;
-}
-
+  }
+  
+  a:link{
+    color: inherit;
+  }
+  
