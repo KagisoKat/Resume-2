@@ -14,15 +14,14 @@ body{
   #heading{
     font-family: sans-serif;
     background-color: #343330;
-    /* display: inline-flex; */
     padding: 1rem;
     color: white;
   }
   
-  #headshot{
+  #myphoto{
     width: 10%;
     height: 10%;
-    border-radius: 20%;
+    border-radius: 50%;
     border: 3px solid #b46c0e;
   }
   
@@ -32,7 +31,7 @@ body{
     overflow: unset;
   }
   
-  #sidebar {
+  #aside {
     height: 100%;
     padding: 1rem;
     padding-right: 2rem;
@@ -54,7 +53,7 @@ body{
   }
   
   #content {
-    width: 80%;
+    /* width: 80%; */
     padding: 1rem;
     margin: 1rem;
     display: block;
