@@ -18,7 +18,7 @@ body{
     color: white;
   }
   
-  #myphoto{
+  #myPhoto{
     width: 10%;
     height: 10%;
     border-radius: 50%;
@@ -39,7 +39,7 @@ body{
     display: block;
   }
   
-  #listtype {
+  #listType {
     list-style-type: none;
     padding: 0;
     color: #fff;
@@ -60,12 +60,27 @@ body{
   }
 
   
-  .icons{
-    width:3rem;
-    margin: 0.5rem;
+  .linkedIn{
+    width: 3rem;
+    margin: 0.1rem;
     height: auto;
   }
   
+ .email{
+    width: 3.1rem;
+    margin: 0.1rem;
+    height: auto;
+    border-radius: 70%;
+    background-color: rgb(233, 64, 34);
+   
+ }
+ 
+ .faceBook{
+   width: 3rem;
+   margin: 0.1rem;
+   height: auto;
+ }
+
   a:link{
     color: inherit;
   }
